@@ -149,10 +149,12 @@ console.log(ok ? '✅ Integridad OK' : '❌ Error');
 
 ## ⚖️ Licencia
 
-Este SDK es **software propietario**.
+Este proyecto opera bajo un modelo de licencia dual para proteger la tecnología central mientras mantiene la integración abierta para la comunidad:
 
-- **Especificación LYTOK:** Apache License 2.0
-- **Motor / SDK:** Propiedad privada de Jose Miguel Silva Castro (@joguel96).
+- **Lytok JS SDK:** El código fuente de JavaScript/TypeScript en este repositorio es de código abierto y está bajo la **Licencia MIT**.
+- **Lytok Core Engine:** Los binarios compilados adjuntos (`.node`, `.wasm`) son **PROPIETARIOS** y pertenecen exclusivamente a Jose Miguel Silva Castro (@joguel96). Actualmente se proporcionan para Early Access (Acceso Anticipado) y evaluación. Queda estrictamente prohibida la ingeniería inversa, descompilación o redistribución comercial no autorizada del motor.
+
+Por favor, lee la [LICENCIA](LICENSE) y el [EULA](EULA.md) completos incluidos en el paquete de NPM para conocer todos los detalles y restricciones antes de usar este software.
 
 ---
 
