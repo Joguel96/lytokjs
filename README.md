@@ -2,17 +2,11 @@
 <img src="src/icon/logo.png" alt="LYTOK Logo" width="250">
 </p>
 
-<p align="center">
-<img src="https://img.shields.io/badge/version-2.0.0-blue" alt="Version">
-<img src="https://img.shields.io/badge/license-Apache 2.0 | MIT-orange" alt="License">
-<img src="https://img.shields.io/badge/format-.ltk-purple" alt="Format">
-</p>
-
-# LYTOK-JS:
-
 ![Version](https://img.shields.io/badge/version-2.0.2-blue)
 ![License](https://img.shields.io/badge/license-Propietary-red)
 ![Platform](https://img.shields.io/badge/platform-Node.js_|_Browser-lightgrey)
+
+# LYTOK-JS:
 
 ### SDK Oficial de Serialización de Alta Densidad para JavaScript
 
