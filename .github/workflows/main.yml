@@ -1,0 +1,18 @@
+name: Actualizar Sponsors
+on:
+  schedule:
+    - cron: '0 0 * * *' # Revisa si hay nuevos patrocinadores cada medianoche
+  workflow_dispatch: # Agrega un botón para ejecutarlo manualmente cuando quieras
+
+jobs:
+  sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      
+      - name: Insertar sponsors en el README
+        uses: EliasGcf/github-sponsors-readme-action@v1
+        with:
+          token: ${{ secrets.SPONSORS_TOKEN }}
+          file: 'README.md'
